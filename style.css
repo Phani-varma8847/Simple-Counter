@@ -1,0 +1,72 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f2f5;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4CAF50; /* Green */
+    margin-bottom: 20px;
+}
+
+#counter-value {
+    font-size: 4em;
+    margin: 30px 0;
+    font-weight: bold;
+    color: #2196F3; /* Blue */
+}
+
+.buttons {
+    display: flex;
+    gap: 15px; /* Space between buttons */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #008CBA; /* Blue */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease;
+}
+
+button#decrease-btn {
+    background-color: #f44336; /* Red */
+}
+
+button#increase-btn {
+    background-color: #4CAF50; /* Green */
+}
+
+button#reset-btn {
+    background-color: #ff9800; /* Orange */
+}
+
+
+button:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: none;
+}
